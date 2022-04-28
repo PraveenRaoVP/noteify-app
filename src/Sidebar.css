@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.sidebar{
+    flex: 0.4;
+    border: 1px solid #000;
+    height: 100vh;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif;
+}
+
+.sidebar--header{
+    border-bottom: 1px solid rgba(0,0,0,0.6);
+}
+
+.sidebar-heading{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar--header .sidebar-heading h1{
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 900;
+}
+
+.sidebar--notes{
+    border: 1px solid rgb(0,0,0,0.3);
+    margin: 3px;
+    border-radius: 6px;
+    padding: 3px;
+    padding-bottom: 12px;
+    margin-top: 5px;
+    transition: all .4s ease-in-out;
+}
+
+.delete-btn{
+    float: right;
+}
+
+.sidebar--notes h2{
+    font-size: 20px;
+}
+
+.sidebar--notes h1{
+    font-size: 15px;
+    padding: 5px;
+    font-weight: 100;
+}
+
+.sidebar--notes p{
+    font-size: 10px;
+    font-weight: 100;
+    float: right;
+}
+
+.sidebar--notes:hover{
+    transform: scale(1.01);
+    background-color: #25887c;
+    color: white;
+}
+
+.active{
+    background-color: #25887c;
+    color: white;
+}
